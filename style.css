@@ -1,0 +1,11 @@
+.header {
+  background-color: darkred;
+}
+
+.left_side {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: darkblue;
+  gap: 20px;
+}
