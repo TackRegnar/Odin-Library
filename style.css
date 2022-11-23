@@ -2,6 +2,11 @@
   background-color: darkred;
 }
 
+.content {
+  display: flex;
+  gap: 6vw;
+}
+
 .left_side {
   display: flex;
   flex-direction: column;
@@ -9,3 +14,18 @@
   background-color: darkblue;
   gap: 20px;
 }
+
+.book_cards {
+  display: grid;
+  gap: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  min-width: 200px;
+  align-items: center;
+}
+

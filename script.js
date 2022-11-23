@@ -18,6 +18,8 @@ function createBookCard() {
     let book_title = document.createElement("p");
     let book_author = document.createElement("p");
     let book_pages = document.createElement("p");
+    let read_button = document.createElement("button");
+    let delete_button = document.createElement("button");
 
     card.setAttribute("class", "card");
     book_cards.appendChild(card);
@@ -27,10 +29,14 @@ function createBookCard() {
     card.appendChild(book_title);
     card.appendChild(book_author);
     card.appendChild(book_pages);
+    card.appendChild(read_button);
+    card.appendChild(delete_button);
 
-    book_title.textContent = ele.title;
+    book_title.textContent = '"' + ele.title + '"';
     book_author.textContent = ele.author;
     book_pages.textContent = ele.pages;
+    read_button.textContent = "Read";
+    delete_button.textContent = "Delete";
   });
 }
 
